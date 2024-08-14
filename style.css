@@ -1,0 +1,1451 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+a,a:hover,a:focus{
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.clr{
+    clear: both;
+}
+
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+.title{
+    text-align: center;
+   
+}
+
+
+.title h2{
+    text-transform: uppercase;
+    color: #353535;
+     font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+            /* menu pat start */
+
+#menu-part{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    /* background: tomato; */
+}
+
+#menu-part .logo{
+    width: 20%;
+    float: left;
+}
+
+
+#menu-part .menu-item{
+    width: 80%;
+    float: left;
+}
+
+
+#menu-part .menu-item ul{
+
+    text-align: right;
+    line-height: 4;
+    
+
+}
+
+#menu-part .menu-item ul li{
+
+    display: inline-block;
+    
+
+}
+
+
+#menu-part .menu-item ul li a{
+
+    position: relative;
+    margin-left: 45px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(251, 248, 248);
+    font-size: 14px;
+    font-weight: 700;
+    transition: .4s;
+}
+
+
+
+#menu-part .menu-item ul .btn a{
+
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(15, 1, 1);
+    font-size: 14px;
+    background:  #66468c;
+    padding: 10px 15px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+#menu-part .menu-item ul .btn a:hover{
+
+    color: white;
+
+}
+
+
+#menu-part .menu-item ul li a:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    content: "";
+    width: 0px;
+    margin-bottom: -15px;
+    background:  #66468c;
+    
+}
+
+
+#menu-part .menu-item ul li a:hover:after{
+    height: 2px;
+    width: 15px;
+     transition: .4s;
+}
+
+
+
+
+
+
+
+
+
+
+                 /* menu-part end */
+
+
+
+
+
+
+
+                 /* banner part start */
+
+#banner-part{
+    background: url(../photo/banner.png)no-repeat,center;
+    background-size: cover;
+    width: 100%;
+    
+}
+
+
+#banner-part .overlay{
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0,0, 0.7);
+    padding-top: 235px;
+    padding-bottom: 120px;
+    text-align: right;
+    color: white;
+    height: 330px;
+
+}
+
+#banner-part .overlay h1{
+
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 56px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+#banner-part .overlay h1 span{
+    font-size:  56px;
+    color: #66468c;
+}
+
+#banner-part .overlay h2{
+
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: white;
+    margin-top: 10px;
+    position: relative;
+}
+
+
+
+#banner-part .overlay h2:after{
+
+    background: white;
+    width: 300px;
+    height: 2px;
+    bottom: -30px;
+    right: 0;
+    content: "";
+    position: absolute;
+
+}
+
+
+#banner-part .overlay p{
+
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    width: 480px;
+    margin-top: 60px;
+    margin-left: auto;
+
+} 
+
+#banner-part .overlay .text{
+    margin-right: 100px;
+}
+
+
+#banner-part .overlay a{
+
+    font-weight: 300;
+    margin-top: 60px;
+    margin-right: 15px;
+    margin-left: auto;
+    color:#353535;
+    background: white;
+    padding: 10px 30px;
+    border-radius: 6px;
+    display: inline-block;
+    transition: .4s;
+    
+
+} 
+
+
+#banner-part .overlay a:hover{
+
+    background: #66468c;
+    color: aliceblue;
+
+}
+
+#banner-part .overlay a:hover span span{
+    color: white;
+}
+
+#banner-part .overlay i{
+    transition: .4s;
+    font-size: 40px;
+    margin-right: -13px;
+}
+
+
+#banner-part .overlay span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    width: 113px;
+}
+
+#banner-part .overlay span span{
+    font-weight: 600;
+    color: #353535;
+    display: inline-block;
+    font-size: 17px;
+    margin-left: 10px;
+    transition: .4S;
+}
+
+
+                 /* banner part end */
+
+
+                 /* about part start */
+
+
+#about-part{
+
+    margin-top: 100px;
+    padding: 30px 0;
+}
+
+
+#about-part .text .written{
+
+    width: 70%;
+    text-align: center;
+    float: left;
+
+
+}
+
+#about-part .text .written h1{
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #353535;
+    text-transform: uppercase;
+
+}
+#about-part .text .written p{
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #777777;
+    margin-left: 80px;
+    text-align: center;
+    width: 624px;
+    margin-top: 38px;
+}
+
+
+
+#about-part .photo{
+
+    width: 30%;
+    float: left;
+
+}
+
+#about-part .photo img{
+    margin-top: -30px;
+}
+
+
+
+                 /* about part end */
+
+
+
+
+                 /* awsome part start */
+
+
+#awsome-part{
+
+padding: 30px 0;
+background: #f1f1f1;;
+width: 100%;
+height: 670px;
+
+}
+
+
+
+#awsome-part .max h2{
+
+    color: #777777;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    /* text-align: center; */
+    margin-left: 420px;
+    margin-bottom: 15px;
+
+}
+
+#awsome-part .max img{
+    margin-left: 515px;
+}
+
+
+#awsome-part .logo{
+    width: 33.33%;
+    margin-top: -47px;
+    float: left;
+}
+
+
+#awsome-part .logo .item span{
+
+    font-size: 14px;
+    color: #353535;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    width: 300px;
+    display: inline-block;
+    transition: .4s;
+
+}
+
+#awsome-part .logo .item span span{
+
+    font-size: 18px;
+    color:  #353535;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 300px;
+    transition: .4s;
+}
+
+
+#awsome-part .logo .item i{
+
+    font-size: 42px;
+    margin-right: 10px;
+    color: #353535;
+    transition: .4s;
+}
+
+
+#awsome-part .logo .item{
+
+    position: relative;
+    cursor: pointer;
+    margin-top: 40px;
+
+
+}
+
+
+#awsome-part .logo .item:after{
+
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    width: 270px;
+    height: 2px;
+    background: #777777;
+    content: "";
+    transition: .4s;
+}
+
+#awsome-part .logo .item:hover:after{
+
+    width: 300px;
+    background: #66468c;
+
+}
+
+#awsome-part .logo .item:hover i{
+
+    color: #66468c;
+
+}
+
+#awsome-part .logo .item:hover span{
+
+    color: #66468c;
+
+}
+
+
+#awsome-part .logo .item:hover span span{
+    color: #66468c;
+}
+
+
+
+
+
+
+#awsome-part .middle .image{
+    width: 25%;
+    float: left;
+    position: relative;
+}
+
+#awsome-part .middle .image img{
+    
+    position: absolute;
+    background: red;
+    height: 550px;
+    top: 30px;
+    left: 52px;
+    width: 290px;
+}
+
+
+
+
+
+#awsome-part .text{
+    width: 41%;
+    float: left;
+    position: relative;
+}
+
+
+#awsome-part .text h2{
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    right: -390px;
+    top: 30px;
+    color: #777777;
+}
+
+#awsome-part .text .right p{
+
+    font-family: 'Raleway', sans-serif;
+    margin-right: 40px;
+    width: 412px;
+    font-size: 14px;
+    color: #777777;
+    line-height: 1.7;
+    margin-top: 90px;
+    margin-bottom: -60px;
+    margin-left: 450px;
+    text-align: right;
+    
+}
+
+
+                 /* awsome part end */
+
+
+
+
+                 /* screenshot part start */
+
+
+#screenshot-part{
+width: 100%;
+}
+
+#screenshot-part h1{
+
+    font-family: 'Raleway', sans-serif;
+    color: #353535;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+
+#screenshot-part .im img{
+
+    margin-left: 508px;
+    margin-bottom: 50px;
+
+}
+
+
+#screenshot-part .one{
+ 
+    width: 18%;
+    margin-left: 20px;
+    float: left;
+
+}
+
+#screenshot-part .two{
+
+    width: 18%;
+    margin-left: 20px;
+    float: left;
+
+}#screenshot-part .three{
+   
+    width: 18%;
+    margin-left: 20px;
+    float: left;
+
+}#screenshot-part .four{
+
+    width: 18%;
+    margin-left: 20px;
+    float: left;
+
+
+}
+
+
+#screenshot-part .five{
+
+    width: 18%;
+    margin-left: 20px;
+    float: left;
+    margin-bottom: 100px;
+
+
+}
+
+
+                 /* screenshot part end */
+
+
+                 /* video part start */
+
+#video-part{
+
+    width: 100%;
+    position: relative;
+    
+}
+
+
+
+#video-part .des h2{
+
+    text-align: center;
+    margin-top: 300px;
+    
+
+}
+
+#video-part .des img {
+    margin-left: 512px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+
+
+
+#video-part .vdo{
+
+    background: url(../photo/mobile.png)no-repeat,center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    position: relative;
+}
+
+
+#video-part .vdo .overlay{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.7);
+
+}
+
+
+#video-part .vdo .overlay i{
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+                 /* video part end */
+
+
+
+
+
+
+
+                 /* pricing part start */
+
+#pricing-part{
+
+    width: 100%;
+    
+
+}
+
+#pricing-part h2{
+
+    color: #353535;
+    margin-top: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+#pricing-part .ig{
+
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+#pricing-part .one{
+
+    height: 330px;
+    width: 22%;
+    background: white;
+    margin-left: 20px;
+    float: left;
+    position: relative;
+    
+}
+
+#pricing-part .one .ist{
+
+    height: 60px;
+    width: 100%;
+    background: #f1f1f1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+
+
+#pricing-part .one .ist h2{
+
+    color: #797979;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+   
+}
+
+
+#pricing-part .sec{
+
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%,0);
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    height: 120px;
+    width: 120px;
+
+
+}
+
+
+#pricing-part .sec h2{
+    text-align: center;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    font-weight: bold;
+
+}
+
+
+#pricing-part .sec p{
+
+    font-family: 'Raleway', sans-serif;
+    color: #353535;
+    font-size: 15px;
+    margin-top: 60px;
+    font-weight: bold;
+    /* margin-left: 26px; */
+    text-align: center;
+
+}
+
+
+
+#pricing-part .sec h2 span{
+    
+    font-family: 'Raleway', sans-serif;
+    color: #353535;
+    font-size: 47px;
+    font-weight: bold;
+
+}
+
+
+#pricing-part .third{
+
+    height: 175px;
+    width: 100%;
+    margin-top: 222px;
+    background: rgb(229, 236, 229);
+    position: relative;
+    padding-top: 15px;
+    position: relative;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+#pricing-part .third .det{
+  
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+#pricing-part .third .det span{
+  
+    font-size: 14px;
+    color: #555555;
+    display: block;
+    font-family:   'Open Sans', sans-serif;
+    margin-top: 15px;
+
+}
+
+
+#pricing-part .third a{
+
+    padding: 10px 20px;
+    background: white;
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid #353535;
+    color: #353535;
+    position: absolute;
+    top: 169px;
+    left: 78px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: -100px;
+    border-radius: 5px;
+    transition: .4s;
+
+}
+
+#pricing-part .one:hover a{
+
+    background: #66468c;
+    color: #f1f1f1;
+}
+
+
+#pricing-part .one .ist{
+
+    transition: .4s;
+}
+
+#pricing-part .one .ist h2{
+
+    transition: .4s;
+}
+
+#pricing-part .one:hover .ist h2{
+
+    color: white;
+
+}
+
+#pricing-part .one:hover .ist{
+
+    background: #66468c;
+}
+
+
+#pricing-part .one{
+    margin-left: 28px;
+}
+
+
+                 /* pricing part end */
+
+
+
+
+
+
+                /* awsome team part start */
+
+#awsome-part{
+
+
+    width: 100%;
+    margin-top: 200px;
+    background: white;
+
+}
+
+
+#awsome-part .team{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+#awsome-part .team .member{
+
+    width: 32%;
+    margin-bottom: 20px;
+
+}
+
+#awsome-part .team .member .img{
+
+    width: 100%;
+    position: relative;
+
+}
+
+#awsome-part .team .member .img{
+
+    position: absolute;
+    top: 100px;
+    transition: .4s;
+}
+
+
+#awsome-part .team .member:hover .img{
+
+    top: 0;
+}
+
+
+
+#awsome-part .team .member{
+    position: relative;
+}
+
+#awsome-part .team .member .img .overlay{
+
+
+    position: absolute;
+    top: 0;
+    left: 1px;
+    background: rgb(0, 0, 0, .8);
+    width: 101%;
+    height: 99%;
+    opacity: 0;
+    transition: .4s;
+    /* position: relative; */
+    
+}
+
+#awsome-part .team .member:hover .img .overlay{
+
+    opacity: 1;
+    /* transform: scale(1); */
+
+}
+
+#awsome-part .team .member{
+    position: relative;
+}
+
+#awsome-part .team .member .img .overlay .icon{
+
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+#awsome-part .team .member .img .overlay .icon i{
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: #353535;
+    background: white;
+    margin: 0 10px;
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+    line-height: 50px;
+    transition: .4s;
+
+}
+
+
+#awsome-part .team .member .img .overlay .icon i:hover{
+    color: white;
+    background: #66468c;
+}
+
+
+
+
+
+#awsome-part .team .member .lst{
+
+    text-align: center;
+    display: inline-block;
+    color: #353535;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 370px;
+    width: 87%;
+    margin-left: 1px;
+}
+
+
+#awsome-part .team .member .lst h2{
+
+    margin-bottom: 10px;
+
+
+}
+
+#awsome-part .team .member .lst .des{
+
+    font-size: 14px;
+    
+
+}
+
+
+#awsome-part .team .member .lst .det{
+
+    margin-top: 20px;
+    width: 320px;
+    
+}
+
+
+#awsome-part .team .member .lst{
+
+    position: absolute;
+    top: 30%;
+    left: 0;
+    border: 1px solid #cccccc;
+    border-top: 0;
+    padding: 40px 0;
+    padding-right: 24px;
+    padding-left: 25px;
+    z-index: -1;
+
+}
+
+#awsome-part .team .member:hover .lst{
+
+    z-index: 1;
+    top: 100%;
+
+}
+
+
+
+                /* awsome team part end */
+
+
+
+
+
+
+                /* user part start */
+
+#user-part{
+
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#user-part .images{
+
+    background: url(../photo/smartphone.png) no-repeat,center;
+    background-size: cover;
+    width: 100%;
+    height: 540px;
+    margin-top: 50px;
+    position: relative;
+}
+
+
+
+#user-part .images .overlay{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0, 0,.8);
+
+
+}
+
+#user-part .images .overlay .txt{
+
+    text-align: center;
+    display: inline-block;
+    color: #353535;
+    text-transform: none;
+    font-size: 14px;
+    line-height: 2;
+    font-family: 'open sans', sans-serif;
+    background: #f1f1f1;
+    width: 624px;
+    padding: 20px 50px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    position: relative;
+
+}
+
+
+#user-part .images .overlay .txt .icon{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    /* transform: translate(-50%,-50%); */
+    color: #66468c;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+
+
+
+#user-part .images .overlay .txt .icon .nds{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    /* transform: translate(-50%,-50%); */
+    color: #66468c;
+    /* display: inline-block; */
+
+}
+
+#user-part .images .overlay .txt .icon .nds h2{
+
+   margin-top: 70px;
+   font-weight: bold;
+   font-size: 18px;
+   color: #353535;
+   font-family: 'Raleway', sans-serif;
+
+}
+
+
+#user-part .images .overlay .txt .icon .nds .des{
+
+    
+    font-size: 14px;
+    color: #353535;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -9px;
+ }
+
+
+ #user-part .images .overlay .txt .box {
+    height: 30px;
+    width: 30px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    margin-top: 112px;
+    margin-left: 298px;
+    transform: rotate(45deg);
+
+ }
+
+
+
+ #user-part .images .overlay .txt .man{
+
+    display: flex;
+    justify-content: center;
+    margin-top : 20px;
+    
+ }
+
+ #user-part .images .overlay .txt .man .imag1{
+    margin-top: 20px;
+    margin-right: 20px;
+ }
+
+ #user-part .images .overlay .txt .man .imag3{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+ }
+
+ #user-part .images .overlay .txt .man .imag3 img{
+
+    height: 115px;
+    width: 115px;
+
+ }
+
+ #user-part .images .overlay .txt .man .imag1 img{
+
+    height: 115px;
+    width: 115px;
+ }
+
+
+ #user-part .images .overlay .txt .man .imag2 img{
+
+    height: 170px;
+    width: 170px;
+    /* position: relative; */
+ }
+
+
+ #user-part .images .overlay .txt .man .imag3{
+
+    position: relative;
+ }
+
+ #user-part .images .overlay .txt .man .imag3 .overlay{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 115px;
+    width: 115px;
+    background: rgb(241, 241, 241, .5);
+    border-radius: 50%;
+
+
+ }
+
+
+
+ 
+ #user-part .images .overlay .txt .man .imag1{
+
+    position: relative;
+ }
+
+ #user-part .images .overlay .txt .man .imag1 .overlay{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 115px;
+    width: 115px;
+    background: rgb(241, 241, 241, .5);
+    border-radius: 50%;
+
+ }
+ #user-part .images .overlay .txt .man{
+    position: relative;
+ }
+
+ #user-part .images .overlay .txt .man .round{
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    box-sizing: border-box;
+    
+ }
+
+ #user-part .images .overlay .txt .man .round .one{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 5px solid #cccccc;
+    margin-left: 10px;
+    position: relative;
+    transition: .4s;
+ }
+
+ #user-part .images .overlay .txt .man .round .one .two{
+
+    height: 5px;
+    width: 5px;
+    background: #cccccc;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: .4s;
+ }
+
+ #user-part .images .overlay .txt .man .round .one:hover .two{
+
+    opacity: 1;
+    background: #66468c;
+
+ }
+
+ #user-part .images .overlay .txt .man .round .one:hover{
+
+    border: 5px solid #66468c;
+    
+ }
+
+
+
+                /* user part start */
+
+
+
+                /* massage part start */
+
+#massage-part{
+
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+
+#massage-part .input{
+    margin-top: 100px;
+    
+}
+
+#massage-part .input input{
+
+    width: 360px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #353535;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 10px;
+    color: #353535;
+    display: inline-block;
+    font-size: 14px;
+
+}
+
+#massage-part .massage textarea{
+    height: 150px;
+    width: 100%;
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #353535;
+    border: 1px solid #353535;
+    margin-top: 10px;
+    padding: 50px 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+#massage-part button{
+
+    text-align: center;
+    color: #f1f1f1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #353535;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 520px;
+    margin-top: 20px;
+    background: #66468c;
+    
+    
+}
+
+
+                /* massage part start */
+
+
+
+
+
+                /* last part start */
+
+#last-part{
+
+    margin-top: 200px;
+
+}
+
+#last-part .last{
+
+    height: 270px;
+    width: 100%;
+    background: #353535 ;
+    position: relative;
+
+}
+
+#last-part .last img{
+
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+
+#last-part .last .icon{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 40px;
+}
+
+
+#last-part .last .icon i{
+
+    color: #353535;
+    font-size: 18px;
+    background: white;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 50px;
+    margin-left: 5px;
+    transition: .4s;
+}
+
+#last-part .last .icon i:hover{
+    color: white;
+    background: #66468c;
+}
+
+#last-part .last p{
+
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 14px;
+
+}
+
+#last-part .last p span{
+
+    color: #66468c;
+
+}
+
+
+
+
+
+                /* last part end */
